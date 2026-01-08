@@ -40,20 +40,9 @@ Within Wireshark, we can use common search parameters to narrow our search, incl
 
 ---
 
-- Image 1: Using these parameters, we identified a potentially suspicious packet within Wireshark worth further investigation.
-
-![Log4j HTTP JNDI injection observed in Wireshark](images/log4j_http_cleartext_01.png)
-
-
-- Image 2: Investigating the HTTP stream of this packet, we identified the start of a "Log4j" attack phase:
+- Image 1: Using these parameters, we identified a potentially suspicious packet within Wireshark. Investigating the HTTP stream of this packet, we identified the start of a "Log4j" attack phase:
 
 ![Log4j HTTP JNDI injection observed in Wireshark](images/log4j_http_cleartext_02.png)
-
-
-- Image 3: With the help of CyberChef, we could deobfuscate the hash and defang the IP Address of the attacker:
-
-![Log4j HTTP JNDI injection observed in Wireshark](images/log4j_http_cleartext_03.png)
-
 
 
 ---
@@ -75,11 +64,7 @@ Detect and analyze suspicious outbound HTTP traffic indicating possible data exf
 ![Data Exfiltration](images/data_exfil_1.png)
 
 
-- Image 2: We correlated this information with Wireshark to confirm our findings.
-
-![Data Exfiltration](images/data_exfil_2.png)
-
-- Image 3: Having isolated the suspicious packet, we followed the HTTP stream to identify the exposed credentials and data being exfiltrated to the external IP.
+- Image 2: To correlate the findings, we successfully isolated the suspicious packet in Wireshark, and followed the HTTP stream to identify the exposed credentials and data being exfiltrated to the external IP.
 
 ![Data Exfiltration](images/data_exfil_3.png)
 
