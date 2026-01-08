@@ -34,7 +34,7 @@ Identify exploitation attempts targeting Log4j via malicious HTTP requests.
 
 Within Wireshark, we can use common search parameters to narrow our search, including:
 - http.request.method == "POST"
-- (ip contains "jndi") or ( ip contains "Exploit")
+- (ip contains "jndi") or (ip contains "Exploit")
 - (frame contains "jndi") or ( frame contains "Exploit")
 - (http.user_agent contains "$") or (http.user_agent contains "==")
 
@@ -75,7 +75,7 @@ Detect and analyze suspicious outbound HTTP traffic indicating possible data exf
 ![Data Exfiltration](images/data_exfil_1.png)
 
 
-- Image 2: We correlated this information with Wireshark to confirm our findinngs.
+- Image 2: We correlated this information with Wireshark to confirm our findings.
 
 ![Data Exfiltration](images/data_exfil_2.png)
 
