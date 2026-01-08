@@ -87,7 +87,7 @@ Detect and analyze suspicious outbound HTTP traffic indicating possible data exf
 
 ## 📄 Deliverables
 
-- [Download SIEM Log Analysis Report](report/SIEM_Log_Analysis_Report_Complete.pdf)
+- [SIEM Log Analysis Report](report/SIEM_Log_Analysis_Report_Complete.pdf)
 - Detection queries
 - Anonymized sample logs
 
