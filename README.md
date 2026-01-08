@@ -40,7 +40,7 @@ Within Wireshark, we can use common search parameters to narrow our search, incl
 
 ---
 
-- Image 1: Using these parameters, we identified a potentially suspicious packet within Wireshark. Investigating the HTTP stream of this packet, we identified the start of a "Log4j" attack phase:
+- Image 1: Using these parameters, we identified a potentially suspicious packet within Wireshark. Investigating the HTTP stream of this packet, we identified the start of a "Log4j" attack phase. CyberChef was then used to decode and transform the obfuscated payload.
 
 ![Log4j HTTP JNDI injection observed in Wireshark](images/log4j_http_cleartext_02.png)
 
