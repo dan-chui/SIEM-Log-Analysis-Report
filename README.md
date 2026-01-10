@@ -72,7 +72,9 @@ Detect and analyze suspicious outbound HTTP traffic indicating possible data exf
 
 ## 📄 Deliverables
 
-- [SIEM Log Analysis Report](report/SIEM_Log_Analysis_Report_Complete.pdf)
+👉 The completed Risk Register file can be downloaded via my cybersecurity blog, [Happy Bytes](https://happy-bytes.vercel.app/blogs/cybersec-lab-siem-log-analysis) 
+
+- [SIEM Log Analysis Report (PDF) on GitHub](report/SIEM_Log_Analysis_Report_Complete.pdf)
 - Detection queries
 - Anonymized sample logs
 
