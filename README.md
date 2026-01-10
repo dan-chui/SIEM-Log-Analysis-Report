@@ -11,7 +11,7 @@ The focus is on detecting, investigating, and documenting two common attacker te
 
 All analysis was performed using anonymized training data adapted from SOC lab exercises.
 
-👉 The completed Risk Register file can be downloaded via my cybersecurity blog, [Happy Bytes](https://happy-bytes.vercel.app/blogs/cybersec-lab-siem-log-analysis)
+👉 The completed SIEM Log Analysis Report can be downloaded via my cybersecurity blog, [Happy Bytes](https://happy-bytes.vercel.app/blogs/cybersec-lab-siem-log-analysis)
 
 ---
 
