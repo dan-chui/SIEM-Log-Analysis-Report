@@ -15,6 +15,18 @@ All analysis was performed using anonymized training data adapted from SOC lab e
 
 ---
 
+⚠️ Educational / Defensive Security Disclaimer
+
+This repository contains cybersecurity learning exercises and defensive
+security analysis. The materials document investigations, threat hunting,
+or incident response scenarios for educational and portfolio purposes.
+
+No malware, exploits, or offensive tooling are distributed in this repository.
+Any IP addresses, indicators, or artifacts are included strictly for analysis
+and educational demonstration.
+
+---
+
 ## 🛠 Tools & Technologies
 
 - Wireshark  
