@@ -1,4 +1,4 @@
-# SIEM Log Analysis Report – Log4j Exploitation & HTTP Data Exfiltration
+# SIEM Incident Analysis Report – Log4j Exploitation & HTTP Data Exfiltration
 
 ## 📌 Project Overview
 
